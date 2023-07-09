@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Sing Up</h1>
+</head>
+<body>
+  <form action="">
+    <table>
+      <tr>
+          <th>First Name</th>
+          <th><input placeholder="Enter First Name" type="text"></th>
+      </tr>
+      <tr> 
+          <th>Lats Name</th>
+          <th><input placeholder="Enter Lats Name" type="text"></th>
+      </tr>
+      <tr>
+        <th>Dete of Birth</th>
+        <th>
+        <select name="year" id="yyyy" onchage="change_year(this)">
+        <option value="Audi">1990</option>
+        <option value="BMW">1991</option>
+        <option value="Mercedes">1992</option>
+        <option value="Volvo">1993</option>
+        </select>
+        <select id="month" name="mm" onchange="change_month(this)">
+        <option value="Audi">12</option>
+        <option value="BMW">11</option>
+        <option value="Mercedes">10</option>
+        <option value="Volvo">9</option>
+        </select>
+        <select id="day" name="dd" onchange="change_day(this)">
+          <option value="Audi">12</option>
+          <option value="BMW">11</option>
+          <option value="Mercedes">10</option>
+          <option value="Volvo">9</option>
+        </select>
+    </th>
+      </tr>
+      <tr>
+        <th>Gender</th>
+        <th>
+          <input id="Male" Name="gender" type="radio"><label  for="Male">Male</label>
+          <input id="Famele" Name="gender" type="radio"><label for="Famele">Famele</label>
+        </th>
+      </tr>
+      <tr>
+        <th>Country</th>
+        <th><select>
+          <option value="Country">Country</option></th>
+      </tr>
+      <tr>
+        <th>E-mail</th>
+        <th><input placeholder="Enter email ...." type="text"></th>
+      </tr>
+      <tr>
+        <th>Phone</th>
+        <th><input placeholder="Enter Phone" type="text"></th>
+      </tr>
+      <tr>
+        <th>Password</th>
+        <th><input type="text"></th>
+      </tr>
+      <tr>
+        <th>Confirm<br>
+          Password
+        </th>
+        <th><input type="text"></th>
+      </tr>
+
+    </table>  
+    <pre>
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> <label for="vehicle1"> I Agree to the Terms of use</label>
+    </pre>
+    <pre>
+                    <button type="button">Submit!</button> <button type="button">Cancel</button>
+    </pre>
+
+  </form>
+    
+</body>
+</html>
